@@ -1,8 +1,14 @@
 {
   "name": "edcrypt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple AES256 file encrypt/decrypt CLI",
   "main": "./lib/edcrypt",
+  "author": "Matt Breckon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kersheh/edcrypt.git"
+  },
   "keywords": [
     "cli",
     "encrypt",
