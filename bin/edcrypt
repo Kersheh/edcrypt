@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const edcrypt = require('../lib/edcrypt');
+const { encrypt, decrypt } = require('../lib/edcrypt');
 
 // ex.
 // $ node edcrypt e file.txt pass

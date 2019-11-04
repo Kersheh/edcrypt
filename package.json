@@ -1,6 +1,6 @@
 {
   "name": "edcrypt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple AES256 file encrypt/decrypt CLI",
   "main": "./lib/edcrypt",
   "keywords": [
