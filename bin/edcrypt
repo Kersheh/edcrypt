@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const edcrypt = require('../lib/edcrypt');
+
+// ex.
+// $ node edcrypt e file.txt pass
+const [ mode, file, password ] = process.argv.slice(2);
+
+if(mode === 'e') {
+  encrypt({ file, password });
+} else if(mode === 'd') {
+  decrypt({ file, password });
+} else {
+  console.log(`Mode ${mode ? `'${mode}' ` : ''}invalid`);
+  console.log('Options: [e]ncrypt | [d]ecrypt');
+}

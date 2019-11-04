@@ -1,0 +1,20 @@
+{
+  "name": "edcrypt",
+  "version": "0.1.0",
+  "description": "Simple AES256 file encrypt/decrypt CLI",
+  "main": "./lib/edcrypt",
+  "keywords": [
+    "cli",
+    "encrypt",
+    "decrypt",
+    "aes256"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "edcrypt": "./bin/edcrypt"
+  },
+  "preferGlobal": true
+}
