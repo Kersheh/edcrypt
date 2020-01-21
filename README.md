@@ -13,3 +13,8 @@ A simple AES256 file encryption and decryption CLI.
     $ edcrypt e file_name.txt password
 
     $ edcrypt d file_name.txt.enc password
+
+  Alternatively, providing no password will prompt the user:
+
+    $ edcrypt e file_name.txt
+    Password: ...

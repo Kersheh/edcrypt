@@ -1,6 +1,6 @@
 {
   "name": "edcrypt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple AES256 file encrypt/decrypt CLI",
   "main": "./lib/edcrypt",
   "author": "Matt Breckon",
