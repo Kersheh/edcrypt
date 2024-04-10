@@ -8,7 +8,13 @@ A simple AES256 file encryption and decryption CLI.
 
     npm install edcrypt -g
 
-# Usage
+# Usage CLI
+
+    $ npx edcrypt e file_name.txt password
+
+    $ npx edcrypt d file_name.txt.enc password
+
+# Usage Locally
 
     $ edcrypt e file_name.txt password
 
